@@ -1,0 +1,119 @@
+@import "partials/fonts";
+@import "partials/player";
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h2, h3{
+    font-family:$bold;
+}
+section{
+    width:90%;
+    max-width:720px;
+    margin:0 auto;
+}
+.App {
+  font-family: $regular;
+
+  header{
+      background-color:#000;
+      width:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:2em 0;
+
+    .main{
+        text-align:center;
+       
+           
+        img{
+            width:15%;
+            min-width:64px;
+        }
+        &__title{
+            font-family: $decor;
+            font-weight: 200;
+            line-height: 1em;
+            margin:0;
+            color:#fff;
+            font-size:6em;
+
+      }
+      &__subtitle{
+            font-family: $decor;
+            font-weight: 200;
+            margin:0;
+            font-size:2em;
+            color:aquamarine;
+        }
+    }
+        
+  }
+  .overall-section{
+      background-image: linear-gradient(#000,  #808080,#F5F5F5);;
+      padding:.5em 0 2em;
+      margin:0 0 4em;
+
+      .overall-title{
+          text-align:center;
+          color:#fff;
+          font-family: $decor;
+      }
+  }
+    .league-standings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 2em 2em;
+        font-size: 1.5em;
+        font-family:$decor;
+        color:#fff;
+
+        &__player-total{
+            padding:.2em;
+            width:100%;
+            min-width: 250px;
+            max-width:300px;
+
+            .player-standing{
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+                background:#fff;
+                color:#404040;
+                border-radius:50px;
+                padding: .2em 1em;
+                border:4px solid aquamarine;
+
+                h3{
+                    margin:0;
+                }
+            }
+            
+        }
+    
+    }
+    .players-title{
+        font-family: $decor;
+        font-size:1.2em;
+    }
+    footer{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: .6em;
+        padding: 3em;
+}
+
+}
+
+@media screen and (min-width:1200px){
+    section{
+        max-width: 1440px;
+    }
+}
