@@ -6,3 +6,5 @@ Built in React and using the free api from mysportsfeeds.com
 Other tech in use:
 SASS
 BEM
+
+View live version: https://plague-pool.herokuapp.com/
