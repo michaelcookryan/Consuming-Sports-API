@@ -34,9 +34,9 @@ class App extends React.Component{
    return {
      name: team.City + " " + team.Name,
      record: {
-       wins: Object.values(stats.Wins['#text']),
-       losses: Object.values(stats.Losses['#text']),
-       ties: Object.values(stats.Ties['#text']),
+       wins: parseInt(stats.Wins['#text']),
+       losses: parseInt(stats.Losses['#text']),
+       ties: parseInt(stats.Ties['#text']),
      }
      
    }
