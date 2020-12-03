@@ -7,4 +7,4 @@ Other tech in use:
 SASS
 BEM
 
-View live version: https://plague-pool.herokuapp.com/
+View live version: https://plaguepool.com/
