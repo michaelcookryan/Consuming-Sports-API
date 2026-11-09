@@ -1,0 +1,44 @@
+.futureGame {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  width: 170px;
+
+  @media screen and (min-width: 392px) {
+    margin-bottom: 0.8em;
+  }
+
+  &__awayTeam,
+  &__homeTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    span {
+      font-size: 0.6em;
+      margin-right: 0.7em;
+    }
+
+    &-name {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+
+      .ownerName {
+        font-size: 0.5em;
+        font-family: $bold;
+        text-transform: capitalize;
+        margin-left: 0.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0.7em;
+
+        @media screen and (min-width: 392px) {
+          margin-left: 0.7em;
+        }
+      }
+    }
+  }
+}

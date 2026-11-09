@@ -1,0 +1,73 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: $black;
+  width: 100%;
+  padding: 0.5em 0;
+
+  @media screen and (min-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+  }
+
+  .main {
+    @media screen and (min-width: 600px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__title-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0.75em;
+
+      @media screen and (min-width: 600px) {
+        justify-content: flex-start;
+        margin-bottom: 0;
+      }
+    }
+    img {
+      width: 20px;
+      margin-right: 0.5em;
+
+      @media screen and (min-width: 600px) {
+        width: 30px;
+        margin-right: 1em;
+      }
+    }
+
+    &__title {
+      font-family: $decor;
+      font-size: 1em;
+      font-weight: 200;
+      line-height: 1em;
+      letter-spacing: 1.5px;
+      margin: 0 0.5em 0 0;
+      color: $white;
+
+      @media screen and (min-width: 480px) {
+        font-size: 1.5em;
+      }
+    }
+    &__subtitle {
+      font-family: $decor;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      margin: 0;
+      font-size: 0.75em;
+      color: $currentHighlight;
+
+      @media screen and (min-width: 480px) {
+        font-size: 1em;
+      }
+    }
+    &__menu-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}

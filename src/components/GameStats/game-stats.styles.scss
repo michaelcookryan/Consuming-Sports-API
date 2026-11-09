@@ -1,0 +1,57 @@
+.game {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  width: 340px;
+
+  @media screen and (min-width: 392px) {
+    width: 45%;
+  }
+
+  &__statusDetails {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-family: $demi;
+    font-size: 0.5em;
+
+    &-timeRemaining {
+      margin-left: 0.2em;
+    }
+  }
+
+  &__awayTeam,
+  &__homeTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    &-name {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+
+      .ownerName {
+        font-size: 0.5em;
+        font-family: $bold;
+        text-transform: capitalize;
+        margin-left: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__awayTeam-bye-week {
+    font-family: $bold;
+    color: silver;
+
+    @media screen and (min-width: 392px) {
+      margin-bottom: 16px;
+    }
+    span {
+      font-size: 0.5em;
+      font-family: $bold;
+      margin-left: 1em;
+      color: $currentSecondary;
+    }
+  }
+}

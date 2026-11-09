@@ -1,0 +1,16 @@
+.custom-button {
+  background-color: $customButtonBG;
+  padding: 0.5em;
+  font-size: 1em;
+  color: $white;
+  border: 2px solid lighten($customButtonBG, 10%);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    transition: all ease-in-out 0.2s;
+    background-color: $currentHighlight;
+    border-color: $currentSecondary;
+    color: $white;
+  }
+}

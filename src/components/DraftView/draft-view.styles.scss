@@ -1,0 +1,56 @@
+.draft-view {
+  padding: 0.5em;
+  background-image: linear-gradient(#f5f5f5, silver);
+  border: 2px solid #ffffff;
+  border-radius: 0.5em;
+
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h2,
+    h3 {
+      text-align: left;
+      width: 100%;
+    }
+
+    .draft-view__team {
+      display: flex;
+      align-items: center;
+      width: 330px;
+      margin: 0 0.5em;
+      font-size: 1.4em;
+      font-family: $demi;
+
+      img {
+        margin-right: 0.5em;
+      }
+    }
+    .selected {
+      text-decoration: line-through;
+      color: $white;
+      opacity: 0.5;
+      text-shadow: 1px 1px 3px $black;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .draft-view {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1233px) {
+  .draft-view {
+    &__list {
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}

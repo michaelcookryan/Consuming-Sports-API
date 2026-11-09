@@ -1,0 +1,101 @@
+//Foundational Colours
+$white: #ffffff;
+$black: #000000;
+
+// //Seasonal higlight colour pulled from SuperBowl Champion of previous year - Los Angeles Rams 2021
+// // url https://teamcolorcodes.com/nfl-team-color-codes/
+// $ram-blue: #003594;
+// $ram-gold: #ffa300;
+// $ram-dark-gold: #ff8200;
+// $ram-yellow: #ffd100;
+// $ram-white: $white;
+
+// $chief-red: #e31837;
+// $chief-gold: #ffb81c;
+
+// $eagle-green: #004c54;
+// $eagle-kelly-green: #046a38;
+// $eagle-silver-jersey: #a5acaf;
+// $eagle-silver-helmet: #acc0c6;
+
+// // $currentHighlight: $eagle-silver-helmet;
+// // $currentSecondary: $eagle-silver-jersey;
+// // $currentThirdLight: $white;
+// // $currentDark: $seahawks-blue;
+
+//Buttons
+$customButtonBG: #4285f4;
+$checkedPlayerButtonBG: #bfb;
+$checkedPlayerButtonBorder: #4c4;
+
+//Team Colours
+$bears-blue: #0b162a;
+$bears-orange: #c83803;
+$bengals-orange: #fb4f14;
+$bills-red: #c60c30;
+$bills-blue: #00338d;
+$dallas-royal-blue: #003594;
+$dallas-dark-blue: #041e42;
+$dallas-silver: #869397;
+$dallas-silver-green: #7f9695;
+$forty-niners-gold: #b3995d;
+$forty-niners-red: #aa0000;
+$raiders-silver: #a5acaf;
+$ravens-purple: #241773;
+$ravens-gold: #9e7c0c;
+$seahawks-green: #69be28;
+$seahawks-blue: #002244;
+$seahawks-wolf-gray: #a5acaf;
+$titans-light-blue: #4b92db;
+$titans-dark-blue: #0c2340;
+$titans-red: #c8102e;
+
+// Primary and Secondary Colour Assignments
+$bears-primary: $bears-blue;
+$bears-secondary: $bears-orange;
+$bears-tertiary: $bears-blue;
+$bengals-primary: $bengals-orange;
+$bengals-secondary: $black;
+$bengals-tertiary: $bengals-orange;
+$bills-primary: $bills-red;
+$bills-secondary: $bills-blue;
+$bills-tertiary: $bills-red;
+$dallas-primary: $dallas-royal-blue;
+$dallas-secondary: $dallas-silver;
+$dallas-tertiary: $dallas-dark-blue;
+$forty-niners-primary: $forty-niners-gold;
+$forty-niners-secondary: $forty-niners-red;
+$forty-niners-tertiary: $black;
+$raiders-primary: $raiders-silver;
+$raiders-secondary: $black;
+$raiders-tertiary: $raiders-silver;
+$ravens-primary: $ravens-purple;
+$ravens-secondary: $black;
+$ravens-tertiary: $ravens-gold;
+$seahawks-primary: $seahawks-green;
+$seahawks-secondary: $seahawks-blue;
+$seahawks-tertiary: $seahawks-wolf-gray;
+$titans-primary: $titans-light-blue;
+$titans-secondary: $titans-dark-blue;
+$titans-tertiary: $titans-red;
+
+//Seasonal higlight colour pulled from SuperBowl Champion of previous year - Los Angeles Rams 2021
+// url https://teamcolorcodes.com/nfl-team-color-codes/
+$ram-blue: #003594;
+$ram-gold: #ffa300;
+$ram-dark-gold: #ff8200;
+$ram-yellow: #ffd100;
+$ram-white: $white;
+
+$chief-red: #e31837;
+$chief-gold: #ffb81c;
+
+$eagle-green: #004c54;
+$eagle-kelly-green: #046a38;
+$eagle-silver-jersey: #a5acaf;
+$eagle-silver-helmet: #acc0c6;
+
+$currentHighlight: $seahawks-green;
+$currentSecondary: $seahawks-wolf-gray;
+$currentThirdLight: $white;
+$currentDark: $seahawks-blue;

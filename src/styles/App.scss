@@ -1,0 +1,121 @@
+@import "partials/colours";
+@import "partials/fonts";
+
+@import "../pages/Draft/draft-page.styles.scss";
+@import "../pages/SignIn/sign-in.styles.scss";
+@import "../pages/Standings/standings.styles.scss";
+
+@import "../components/CustomButton/custom-button.styles.scss";
+@import "../components/DraftAdmin/draft-admin-styles.scss";
+@import "../components/DraftOrder/draft-order.styles.scss";
+@import "../components/DraftView/draft-view.styles.scss";
+@import "../components/Footer/footer.styles.scss";
+@import "../components/GameStats/game-stats.styles.scss";
+@import "../components/FormInput/form-input.styles.scss";
+@import "../components/FutureGames/future-games.styles.scss";
+@import "../components/Header/header.styles.scss";
+@import "../components/LoadingSpinner/loading-spinner.styles.scss";
+@import "../components/Menu/menu.styles.scss";
+@import "../components/Modal/modal.styles.scss";
+@import "../components/Player/player.styles.scss";
+@import "../components/PlayerDraftList/player-draft-list.styles.scss";
+@import "../components/ResetBoard/reset-board.styles.scss";
+@import "../components/Team/team.styles.scss";
+@import "../components/TeamDraftForm/team-draft-form.styles.scss";
+@import "../components/TeamDraftInput/team-draft-input.styles.scss";
+@import "../components/SignUp/sign-up.styles.scss";
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: $regular;
+}
+
+h2,
+h3 {
+  font-family: $bold;
+}
+section {
+  width: 100%;
+  padding: 0 1em;
+}
+.loading-notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#mike {
+  background-color: $forty-niners-primary;
+}
+.mike {
+  background-color: $forty-niners-secondary;
+  border-top: 6px solid $forty-niners-primary;
+}
+#mark {
+  background-color: $ravens-primary;
+}
+.mark {
+  background-color: $ravens-secondary;
+  border-top: 6px solid $ravens-tertiary;
+}
+#monty {
+  background-color: $seahawks-primary;
+}
+.monty {
+  background-color: $seahawks-secondary;
+  border-top: 6px solid $seahawks-tertiary;
+}
+#andy {
+  background-color: $raiders-primary;
+}
+.andy {
+  background-color: $raiders-secondary;
+  border-top: 6px solid $raiders-tertiary;
+}
+#hans {
+  background-color: $bills-primary;
+}
+.hans {
+  background-color: $bills-secondary;
+  border-top: 6px solid $bills-tertiary;
+}
+#rich {
+  background-color: $titans-primary;
+}
+.rich {
+  background-color: $titans-secondary;
+  border-top: 6px solid $titans-tertiary;
+}
+#craig {
+  background-color: $bears-primary;
+}
+.craig {
+  background-color: $bears-secondary;
+  border-top: 6px solid $bears-tertiary;
+}
+#terry {
+  background-color: $bengals-primary;
+}
+.terry {
+  background-color: $bengals-secondary;
+  border-top: 6px solid $bengals-tertiary;
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  section {
+    max-width: 1440px;
+  }
+}
