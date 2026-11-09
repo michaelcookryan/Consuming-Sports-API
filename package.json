@@ -1,0 +1,46 @@
+{
+  "name": "pool",
+  "version": "20.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.7",
+    "base-64": "^0.1.0",
+    "core-js": "^3.38.1",
+    "firebase": "^10.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.108.1",
+    "utf8": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:prod": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": []
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^9.9.1",
+    "http-proxy-middleware": "^2.0.6",
+    "style-loader": "^4.0.0"
+  }
+}

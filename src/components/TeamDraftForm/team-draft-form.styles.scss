@@ -1,0 +1,53 @@
+.team-form {
+  width: 100%;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  background-image: linear-gradient(#f5f5f5, silver);
+  border: 2px solid $white;
+  border-radius: 0.5em;
+
+  .team-details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+
+    h5 {
+      font-size: 1.8rem;
+      margin: 0;
+      text-align: center;
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+    }
+  }
+
+  .team-managers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .team-form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-form {
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .team-managers {
+      width: 60%;
+      justify-content: flex-end;
+    }
+  }
+}

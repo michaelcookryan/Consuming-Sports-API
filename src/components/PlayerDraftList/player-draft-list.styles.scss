@@ -1,0 +1,67 @@
+.draft-view__current-drafted {
+  max-width: 1200px;
+
+  .draft-view__draft-lists {
+    .draft-view__player {
+      padding: 1em;
+      margin-bottom: 0.5em;
+      color: $white;
+      border-radius: 0.5em;
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        text-transform: capitalize;
+      }
+      ol {
+        padding-inline-start: 0;
+        list-style-position: inside;
+
+        li {
+          font-size: 1em;
+          font-family: $demi;
+          letter-spacing: 0;
+          margin-bottom: 0.3em;
+        }
+      }
+    }
+    ._andy {
+      background-color: $raiders-silver;
+    }
+
+    ._craig {
+      background-color: $bears-blue;
+    }
+
+    ._hans {
+      background-color: $bills-red;
+    }
+
+    ._mark {
+      background-color: $ravens-purple;
+    }
+
+    ._mike {
+      background-color: $forty-niners-gold;
+    }
+
+    ._monty {
+      background-color: $seahawks-green;
+    }
+
+    ._terry {
+      background-color: $bengals-orange;
+    }
+
+    ._rich {
+      background-color: $titans-light-blue;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .draft-view__player {
+    width: 280px;
+    margin-bottom: 0.25em;
+  }
+}

@@ -1,0 +1,37 @@
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (min-width: 600px) {
+    justify-content: space-between;
+    max-width: 250px;
+  }
+
+  @media screen and (min-width: 600px) {
+    max-width: 250px;
+  }
+
+  &__option {
+    color: $currentHighlight;
+    text-decoration: none;
+    font-weight: 700;
+
+    @media screen and (min-width: 600px) {
+      margin-left: 1.2em;
+    }
+
+    &:hover {
+      transition: all ease-in-out 0.2s;
+      color: $currentSecondary;
+    }
+  }
+  a.active {
+    color: $white;
+  }
+  .sign-out {
+    display: inline;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,38 @@
+.draft-admin-dashboard {
+  background-image: linear-gradient(
+    $currentHighlight,
+    $currentSecondary,
+    $currentThirdLight,
+    $currentDark
+  );
+  padding: 1em;
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  .draft-admin-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .draft-admin-dashboard {
+    padding: 2em;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .draft-admin-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .draft-admin-list {
+      justify-content: space-evenly;
+    }
+  }
+}
